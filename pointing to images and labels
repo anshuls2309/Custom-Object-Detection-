@@ -1,0 +1,9 @@
+from detecto import core
+
+
+
+# Images and XML files in separate folders
+dataset = core.Dataset('labels/', 'images/')
+
+image, target = dataset[0]
+print(image, target)

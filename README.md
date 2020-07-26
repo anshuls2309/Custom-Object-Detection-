@@ -2,6 +2,10 @@
 
 In this project, i used python's new module called detecto for object detection using my own custom images/dataset which detects tennis balls in images.
 
+(it is not perfect as i trained only 20 of images , it can be improved if you train more images)
+
+I think it does a pretty good job for just 20 images trained
+
 You can put your own object images and labels and train the model to detect those objects in the image
 
 The detecto library can be found here : https://pypi.org/project/detecto/

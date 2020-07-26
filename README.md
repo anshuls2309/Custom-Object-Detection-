@@ -1,4 +1,4 @@
-# Custom-Object-Detection-
+# Custom-Object-Detection Python -
 
 In this project, i used python's new module called detecto for object detection using my own custom images/dataset which detects tennis balls in images.
 

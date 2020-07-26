@@ -2,6 +2,8 @@
 
 In this project, i used python's new module called detecto for object detection using my own custom images/dataset which detects tennis balls in images.
 
+You can put your own object images and labels and train the model to detect those objects in the image
+
 The detecto library can be found here : https://pypi.org/project/detecto/
 
 For training a model, you will need a GPU so that the process can me made faster, i had used Google Collab to run my python scripts and used the GPU option provided to faster the process.

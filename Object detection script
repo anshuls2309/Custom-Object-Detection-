@@ -1,0 +1,14 @@
+
+# Specify the path to your image
+image = utils.read_image('images/r1.jpg')
+predictions = model.predict(image)
+
+# predictions format: (labels, boxes, scores)
+labels, boxes, scores = predictions
+
+print(labels) 
+print(boxes)
+print(scores)
+
+
+visualize.show_labeled_image(image, boxes, labels)
